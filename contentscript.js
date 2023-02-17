@@ -1,6 +1,6 @@
 // see https://stackoverflow.com/questions/23202136/changing-navigator-useragent-using-chrome-extension
 var actualCode =  '(' + function() {
-    // Get the correct platform for navigator.userAgent 
+    // Get the correct platform for navigator.userAgent 自动根据useragent修改platform
     /*var candidates = ["Android", "iPhone", "iPod", "iPad"];
     var modifiedPlatform;
     for(var maybe of candidates) {
